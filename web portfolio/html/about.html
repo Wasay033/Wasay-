@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+         
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+        .content p{
+         font-size: larger;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+.hero{
+    font-size: 30px;
+   width: 100%;
+   height: 600px;
+   background: url(../images/InShot_20220620_215136640.jpg);
+   background-size:cover;
+}
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 60px 300px;
+}
+
+nav ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 10px 20px;
+}
+nav ul li a{
+   color: #1d1d24;
+   position: relative;
+   padding: 5px 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover{
+   color: #fd4766;
+}
+nav ul li a:after{
+   content: "";
+   position: absolute;
+   left: 0;
+   width: 0;
+   height: 3px;
+   background: #fd4766;
+   transition: .3s;
+   bottom: 0;
+}
+nav ul li a:hover:after{
+   width: 100%;
+}
+.btn{
+   color: #fff;
+   font-size: 16px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding: 16px 40px;
+   border-radius: 500px;
+   display: inline-block;
+   font-weight: 500;
+   transition: all .4s ease-in-out;
+   background-size: 152% 100%;
+   background: #fd4766;
+   border: 2px solid #fd4766;
+}
+.btn:hover{
+   background: transparent;
+   border-color: #fd4766;
+   color: #fd4766;
+}
+.content{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.content h1{
+    
+    letter-spacing: 2px;
+    text-align: center;
+    color: hsl(0, 87%, 48%);
+    margin-top: 10px; 
+    margin-bottom: 03px;
+    
+    font-size: 70px;
+}
+.content h3{
+    color: #646363;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Style buttons */
+.btn {
+  background-color: rgb(0, 50, 99);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+    bottom: 27%;
+    left: 25%;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+ </style>
+
+<title>Abdul Wasay </title>
+
+<link rel="stylesheet" href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity=
+"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+   
+
+</head>
+<body>
+
+
+
+    <div class="hero">
+        <nav>
+
+    
+        
+            
+            <ul>
+                <li><a href="C:\Users\mahwish\Desktop\web portfolio\html\wasay.html">Home</a></li>
+                <li><a href="C:\Users\mahwish\Desktop\web portfolio\html\about.html">About</a></li>
+                
+                <li><a href="C:\Users\mahwish\Desktop\web portfolio\html\contact.html">Contact</a></li>
+            </ul>
+
+
+        </nav>
+
+        <div class="content">
+           
+        
+            <h1> ABOUT ME </h1>
+            <h3> Hello!  <br> I'm Abdul Wasay Sattar. I can design website using HTML5 and CSS3 and
+<br> I also can develope website using Wordpress <br>
+                  For More about me you can see in my resume  </h3>
+
+                  <br>
+                  <br>
+           
+                
+            
+        </div>
+
+    </div>
+
+    
+
+
+
+      <!-- Button to launch a modal -->
+      <button type="button"
+      class="btn btn-primary"
+      data-toggle="modal"
+      data-target="#exampleModal">
+      R e s u m e
+  </button>
+
+  <!-- Modal -->
+  <div class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+       
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+           
+              <!-- Add image inside the body of modal -->
+              <div class="modal-body">
+                  <img id="image" src="../images/cv.jpg"
+                      alt="Click on button" />
+              </div>
+
+              
+          </div>
+      </div>
+  </div>
+ 
+  <!-- Adding scripts to use bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+          integrity=
+"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+          crossorigin="anonymous">
+  </script>
+  <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+          integrity=
+"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+          crossorigin="anonymous">
+  </script>
+  <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+          integrity=
+"sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+          crossorigin="anonymous">
+  </script>  
+
+
+</body>
+</html>
